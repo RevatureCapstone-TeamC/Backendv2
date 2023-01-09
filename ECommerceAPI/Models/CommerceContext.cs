@@ -18,11 +18,11 @@ public class CommerceContext : DbContext
             { entity.ToTable("Products", "ecd") ;} );
         modelbuilder.Entity<User>(entity => 
             { entity.ToTable("Users", "ecd") ; });
-        //modelbuilder.entity<wishlist>(entity =>
-        //    { entity.totable("wishlist", "ecd"); });
-        //modelbuilder.entity<deal>(entity =>
-        //    { entity.totable("deals", "ecd"); });
-        //modelbuilder.entity<cart>(entity =>
-        //    { entity.totable("cart", "ecd"); });
+        modelbuilder.Entity<Wishlist>(entity =>
+            { entity.ToTable("wishlist", "ecd"); });
+        modelbuilder.Entity<Deal>(entity =>
+            { entity.ToTable("deals", "ecd"); });
+        modelbuilder.Entity<Cart>(entity =>
+            { entity.ToTable("cart", "ecd"); });
     }
 }

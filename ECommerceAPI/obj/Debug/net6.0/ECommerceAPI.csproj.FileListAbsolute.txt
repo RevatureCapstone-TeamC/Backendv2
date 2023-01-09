@@ -77,3 +77,5 @@ C:\Users\mpcat\source\Backendv2\ECommerceAPI\obj\Debug\net6.0\refint\ECommerceAP
 C:\Users\mpcat\source\Backendv2\ECommerceAPI\obj\Debug\net6.0\ECommerceAPI.pdb
 C:\Users\mpcat\source\Backendv2\ECommerceAPI\obj\Debug\net6.0\ECommerceAPI.genruntimeconfig.cache
 C:\Users\mpcat\source\Backendv2\ECommerceAPI\obj\Debug\net6.0\ref\ECommerceAPI.dll
+C:\Users\mpcat\source\Backendv2\ECommerceAPI\bin\Debug\net6.0\app.config
+C:\Users\mpcat\source\Backendv2\ECommerceAPI\bin\Debug\net6.0\ECommerceAPI.dll.config
