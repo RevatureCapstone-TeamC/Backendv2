@@ -1,7 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using ECommerce.Models;
 
-namespace ECommerce.API.Controllers
+namespace ECommerceAPI.Controllers
 {
     [ApiController]
     public class AuthController : ControllerBase

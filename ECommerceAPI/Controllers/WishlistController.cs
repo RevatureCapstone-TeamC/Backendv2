@@ -2,7 +2,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using ECommerce.Models;
 
-namespace ECommerce.API.Controllers
+namespace ECommerceAPI.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
