@@ -54,6 +54,13 @@ jobs:
       - name: Build with dotnet
         run: dotnet build ./ECommerceAPI --configuration Release
 
+      - name: Set Connection String in App Settings
+        uses: microsoft/variable-substitution@v1 
+        with:
+          files: '${{env.DOTNET_ROOT}}/myapp/appsettings.json'
+        env:
+          ConnectionStrings.ECommerce: ${{ secrets.DB_CONNECTION_STRING }}
+
       - name: dotnet publish
         run: dotnet publish ./ECommerceAPI -c Release -o ${{env.DOTNET_ROOT}}/myapp
 
