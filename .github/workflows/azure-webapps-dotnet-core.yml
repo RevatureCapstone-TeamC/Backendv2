@@ -52,10 +52,10 @@ jobs:
             ${{ runner.os }}-nuget-
 
       - name: Build with dotnet
-        run: dotnet build ./ECommerce.API/ECommerce.API --configuration Release
+        run: dotnet build ./ECommerceAPI --configuration Release
 
       - name: dotnet publish
-        run: dotnet publish ./ECommerce.API/ECommerce.API -c Release -o ${{env.DOTNET_ROOT}}/myapp
+        run: dotnet publish ./ECommerceAPI -c Release -o ${{env.DOTNET_ROOT}}/myapp
 
       - name: Upload artifact for deployment job
         uses: actions/upload-artifact@v2
