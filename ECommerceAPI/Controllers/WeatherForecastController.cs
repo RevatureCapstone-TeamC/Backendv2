@@ -1,3 +1,4 @@
+using ECommerceAPI.Models;
 using Microsoft.AspNetCore.Mvc;
 
 namespace ECommerceAPI.Controllers
